@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tail wind demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="bg-gradient-to-tl from-blue-900 to-gray-900 h-screen">
+        <nav class="flex flex-row justify-between">
+            <img src="./logo.png" alt="Logo" class="sm:ml-8 ml-4 w-28 invert-[1]"/>
+            <ul class="sm:flex hidden space-x-8 text-white sm:pt-3 flex-row sm:mt-4 sm:mr-8 justify-around">
+                <li class="cursor-pointer">Home</li>
+                <li class="cursor-pointer">Services</li>
+                <li class="cursor-pointer">Pricing</li>
+                <li class="cursor-pointer">Offers</li>
+                <li class="cursor-pointer">About Us</li>
+            </ul>
+            <img src="./dots.png" alt="Menu Icon" class="sm:hidden invert-[1] h-9 mt-5 mr-2">
+            <!-- <div class="sm:hidden">
+                <ul class="space-x-8 text-white sm:pt-3 flex flex-row sm:mt-4 sm:mr-8 justify-around">
+                    <li class="cursor-pointer">Home</li>
+                    <li class="cursor-pointer">Services</li>
+                    <li class="cursor-pointer">Pricing</li>
+                    <li class="cursor-pointer">Offers</li>
+                    <li class="cursor-pointer">About Us</li>
+                </ul>
+            </div> -->
+        </nav>
+        <section class="flex sm:flex-row sm:justify-around sm:items-center flex-col-reverse sm:h-3/4 h-1/2 ">
+            <div>
+                <p class="sm:text-8xl text-6xl font-extrabold text-center text-white">Consistency</p>
+                <p class="sm:text-4xl text-2xl font-light  sm:text-left text-center text-white ml-3">is the key of success</p>
+            </div>
+            <div>
+                <img src="./banner.png" alt="Logo" class="mx-auto w-3/4 invert-[1]"/>
+            </div>
+        </section>
+    </main>
+    <h1 class="text-center mt-16 font-extrabold text-5xl">Our Plans</h1>
+    <section class="flex sm:flex-row flex-col justify-around my-12">
+        <div class="shadow-xl pt-8 pb-6 px-6 mx-7 mb-10 rounded-2xl border-gray-300 border-2  hover:scale-105 hover:bg-gradient-to-br from-blue-900 to-gray-900 hover:text-white transition-all group">
+            <p class="text-4xl font-bold mb-2">Silver</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum accusantium impedit voluptate distinctio deleniti fuga consequuntur praesentium corporis id officiis a dolore.</p>
+            <img src="./right-arrow.png" alt="Arrow-Image" class="w-14 ml-auto mt-5 group-hover:invert-[1]">
+        </div>
+        <div class="shadow-xl py-8 px-6 mx-7 mb-10 rounded-2xl border-gray-300 border-2 hover:scale-105 hover:bg-gradient-to-br from-blue-900 to-gray-900 hover:text-white transition-all group">
+            <p class="text-4xl font-bold  mb-2">Gold</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum accusantium impedit voluptate distinctio deleniti fuga consequuntur praesentium corporis id officiis a dolore.</p>
+            <img src="./right-arrow.png" alt="Arrow-Image" class="w-14 ml-auto mt-5 group-hover:invert-[1]">
+        </div>
+        <div class="shadow-xl py-8 px-6 mx-7 mb-10 rounded-2xl border-gray-300 border-2 hover:scale-105 hover:bg-gradient-to-br from-blue-900 to-gray-900 hover:text-white transition-all group">
+            <p class="text-4xl font-bold  mb-2">Diamond</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum accusantium impedit voluptate distinctio deleniti fuga consequuntur praesentium corporis id officiis a dolore.</p>
+            <img src="./right-arrow.png" alt="Arrow-Image" class="w-14 ml-auto mt-5 group-hover:invert-[1]">
+        </div>
+    </section>
+</body>
+
+</html>
